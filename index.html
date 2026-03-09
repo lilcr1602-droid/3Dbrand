@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Brand - Modern Interactive Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">3D Brand</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="canvas-container">
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to 3D Brand</h1>
+            <p class="hero-subtitle">Experience the future of web design</p>
+            <button class="cta-button">Explore Now</button>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We create immersive 3D experiences that captivate and engage your audience.</p>
+                    <p>From interactive product visualization to stunning brand presentations, we transform digital experiences into powerful business tools.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>8+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>3D Web Design</h3>
+                    <p>Interactive 3D experiences that bring your brand to life on the web</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎬</div>
+                    <h3>3D Animation</h3>
+                    <p>Stunning animations that tell your brand story</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎮</div>
+                    <h3>Product Visualization</h3>
+                    <p>Interactive product models for e-commerce and showcases</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>AR Experiences</h3>
+                    <p>Augmented reality solutions for modern brands</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <h3>Project Alpha</h3>
+                    <p>3D Product Visualization</p>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <h3>Project Beta</h3>
+                    <p>Interactive Brand Experience</p>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <h3>Project Gamma</h3>
+                    <p>Immersive Web Experience</p>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                    <h3>Project Delta</h3>
+                    <p>3D Animation Suite</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 3D Brand. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
